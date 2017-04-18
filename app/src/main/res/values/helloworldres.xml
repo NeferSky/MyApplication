@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- styles -->
+    <style name="HelloWorldStyle" parent="@android:style/TextAppearance.Medium" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="BlueText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#0000FF</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BlueText.RedText">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <style name="BlueText.RedText.BigText">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!-- themes -->
+    <color name="Custom">#B0B0FF</color>
+
+    <style name="HelloWorldTheme" parent="@style/AppTheme">
+        <item name="android:windowBackground">@color/Custom</item>
+        <item name="android:background">@color/Custom</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
